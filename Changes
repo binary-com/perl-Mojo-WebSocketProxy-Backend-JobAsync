@@ -1,3 +1,2 @@
 {{$NEXT}}
-  Initial release
-
+  Extract Mojo::WebSocketProxy::Backend::JobAsync from Mojo::WebSocketProxy package.

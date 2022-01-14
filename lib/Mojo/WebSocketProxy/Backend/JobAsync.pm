@@ -1,5 +1,8 @@
 package Mojo::WebSocketProxy::Backend::JobAsync;
 
+# ABSTRACT: A subclass of L<Mojo::WebSocketProxy::Backend> which dispatches RPC requests via L<Job::Async>.
+
+
 use strict;
 use warnings;
 
@@ -15,7 +18,7 @@ use Log::Any qw($log);
 use MojoX::JSON::RPC::Client;
 use Syntax::Keyword::Try;
 
-## VERSION
+our $VERSION='0.14';
 
 __PACKAGE__->register_type('job_async');
 
