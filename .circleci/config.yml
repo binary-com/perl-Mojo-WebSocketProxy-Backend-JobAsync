@@ -15,11 +15,11 @@ jobs:
           name: Install dzil author deps
           command: cpm install --show-build-log-on-failure -w 2 --mirror=http://cpan.cpantesters.org/ -g $(dzil authordeps --missing)
       - run:
-          name: Install distribution deps
-          command: cpm install --show-build-log-on-failure -w 2 --mirror=http://cpan.cpantesters.org/ -g $(dzil listdeps --author --missing)
-      - run:
           name: Install Mojo::WebSocketProxy (will delete after Mojo::WebSocketProxy new version released)
           command: cpanm -n git@github.com:chylli-binary/perl-Mojo-WebSocketProxy.git@chylli/spit-module-from-Mojo-WebSocketProxy
+      - run:
+          name: Install distribution deps
+          command: cpm install --show-build-log-on-failure -w 2 --mirror=http://cpan.cpantesters.org/ -g $(dzil listdeps --author --missing)
       - run:
           name: Run smoke test
           command: dzil smoke --release --author
