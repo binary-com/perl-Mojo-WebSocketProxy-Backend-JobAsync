@@ -1,4 +1,6 @@
 requires 'indirect',    '>= 0.37';
+requires 'Job::Async', 0;
+requires 'Mojo::WebSocketProxy', '>= 0.13';
 
 on test => sub {
     requires 'Test::More', '>= 0.98';
