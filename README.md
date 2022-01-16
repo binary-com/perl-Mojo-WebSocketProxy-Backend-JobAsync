@@ -58,3 +58,16 @@ Returns an object of [Job::Async](https://metacpan.org/pod/Job%3A%3AAsync) that 
 ## call\_rpc
 
 Implements the ["call\_rpc" in Mojo::WebSocketProxy::Backend](https://metacpan.org/pod/Mojo%3A%3AWebSocketProxy%3A%3ABackend#call_rpc) interface.
+
+# SEE ALSO
+
+[Mojolicious::Plugin::WebSocketProxy](https://metacpan.org/pod/Mojolicious%3A%3APlugin%3A%3AWebSocketProxy),
+[Mojo::WebSocketProxy](https://metacpan.org/pod/Mojo%3A%3AWebSocketProxy)
+[Mojo::WebSocketProxy::Backend](https://metacpan.org/pod/Mojo%3A%3AWebSocketProxy%3A%3ABackend),
+[Mojo::WebSocketProxy::Dispatcher](https://metacpan.org/pod/Mojo%3A%3AWebSocketProxy%3A%3ADispatcher),
+[Mojo::WebSocketProxy::Config](https://metacpan.org/pod/Mojo%3A%3AWebSocketProxy%3A%3AConfig)
+[Mojo::WebSocketProxy::Parser](https://metacpan.org/pod/Mojo%3A%3AWebSocketProxy%3A%3AParser)
+
+# COPYRIGHT AND LICENSE
+
+Copyright (C) 2022 deriv.com
