@@ -70,4 +70,4 @@ Implements the ["call\_rpc" in Mojo::WebSocketProxy::Backend](https://metacpan.o
 
 # COPYRIGHT AND LICENSE
 
-Copyright (C) 2022 deriv.com
+Copyright (C) 2022 Deriv Group Services Ltd
